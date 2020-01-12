@@ -13,6 +13,7 @@ namespace App5
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        int n1, n2, n3, n4;
         public MainPage()
         {
             InitializeComponent();
@@ -21,6 +22,10 @@ namespace App5
 
             //EVENT 
             btn11.Clicked += btn11_click;
+            btn12.Clicked += btn12_click;
+            btn13.Clicked += btn13_click;
+            btn14.Clicked += btn14_click;
+            btn15.Clicked += btn15_click;
         }
 
         public void Remplire_Button()
@@ -31,8 +36,6 @@ namespace App5
             btn14.Text = "L";
             btn15.Text = "A";
             btn16.Text = "R";
-            btn17.Text = "D";
-            btn18.Text = "R";
             btn19.Text = "W";
             btn20.Text = "I";
             btn21.Text = "D";
@@ -43,26 +46,77 @@ namespace App5
             btn26.Text = "D";
             btn27.Text = "I";
             btn28.Text = "O";
-            btn29.Text = "P";
+            btn29.Text = "R";
             btn30.Text = "D";
         }
 
         public void btn11_click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
-            if (btn1.IsVisible == false)
+
+            if (btn1.IsVisible == false && btn2.IsVisible == false && btn3.IsVisible == false && btn4.IsVisible == false && btn5.IsVisible == false)
             {
                 btn.IsVisible = false;
                 btn1.Text = btn.Text;
                 btn1.IsVisible = true;
-
+                n1 = 1;
             }
+           
             if (btn1.IsVisible && btn2.IsVisible && btn3.IsVisible && btn4.IsVisible && btn5.IsVisible && btn6.IsVisible && btn7.IsVisible && btn8.IsVisible && btn9.IsVisible && btn10.IsVisible)
             {
                 btn10.Text = btn.Text;
             }
         }
+        public void btn12_click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
 
+            if (btn1.IsVisible == false && btn2.IsVisible == false && btn3.IsVisible == false && btn4.IsVisible == false && btn5.IsVisible == false)
+            {
+                btn.IsVisible = false;
+                btn1.Text = btn.Text;
+                btn1.IsVisible = true;
+                n2 = 1;
+            }
+        }
+
+        public void btn13_click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+
+            if (btn1.IsVisible == false && btn2.IsVisible == false && btn3.IsVisible == false && btn4.IsVisible == false && btn5.IsVisible == false)
+            {
+                btn.IsVisible = false;
+                btn1.Text = btn.Text;
+                btn1.IsVisible = true;
+                n2 = 1;
+            }
+        }
+        public void btn14_click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+
+            if (btn1.IsVisible == false && btn2.IsVisible == false && btn3.IsVisible == false && btn4.IsVisible == false && btn5.IsVisible == false)
+            {
+                btn.IsVisible = false;
+                btn1.Text = btn.Text;
+                btn1.IsVisible = true;
+                n2 = 1;
+            }
+        }
+
+        public void btn15_click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+
+            if (btn1.IsVisible == false && btn2.IsVisible == false && btn3.IsVisible == false && btn4.IsVisible == false && btn5.IsVisible == false)
+            {
+                btn.IsVisible = false;
+                btn1.Text = btn.Text;
+                btn1.IsVisible = true;
+                n2 = 1;
+            }
+        }
         //public void btn12_click(object sender, EventArgs e)
         //{
         //    Button btn = (Button)sender;

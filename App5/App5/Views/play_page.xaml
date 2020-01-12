@@ -8,7 +8,34 @@
              BackgroundColor="Black"
              x:Class="App5.Views.play_page">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand">
+                <Label
+                FontAttributes="Bold"
+                FontSize="40"
+                Text="L"
+                TextColor="White"
+                />
+                <Label
+                FontAttributes="Bold"
+                FontSize="40"
+                TextColor="Black"
+                Text="O"
+                />
+                <Label
+                FontAttributes="Bold"
+                FontSize="40"
+                Text="G"
+                TextColor="White"
+                />
+                <Label
+                FontAttributes="Bold"
+                FontSize="40"
+                Text="O"
+                    TextColor="Black"
+                />
+
+            </StackLayout>
             <lt:AnimationView
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand"

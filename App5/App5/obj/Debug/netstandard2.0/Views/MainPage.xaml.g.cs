@@ -80,12 +80,6 @@ namespace App5 {
         private global::ButtonCircle.FormsPlugin.Abstractions.CircleButton btn16;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::ButtonCircle.FormsPlugin.Abstractions.CircleButton btn17;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::ButtonCircle.FormsPlugin.Abstractions.CircleButton btn18;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::ButtonCircle.FormsPlugin.Abstractions.CircleButton btn19;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -145,8 +139,6 @@ namespace App5 {
             btn14 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn14");
             btn15 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn15");
             btn16 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn16");
-            btn17 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn17");
-            btn18 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn18");
             btn19 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn19");
             btn20 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn20");
             btn21 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn21");

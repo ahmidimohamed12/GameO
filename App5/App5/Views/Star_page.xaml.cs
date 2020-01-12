@@ -16,7 +16,7 @@ namespace App5.Views
             InitializeComponent();
             Device.StartTimer(TimeSpan.FromSeconds(3), () =>
             {
-                 Navigation.PushModalAsync(new MainPage());
+                 Navigation.PushModalAsync(new play_page());
                 return false;
             });
         }

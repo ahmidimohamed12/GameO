@@ -66,7 +66,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40" />
                     <RowDefinition Height="40" />
-                    <RowDefinition Height="100" />
+                    <RowDefinition Height="50" />
                     <RowDefinition Height="40" />
                     <RowDefinition Height="40" />
                     <RowDefinition Height="40" />
@@ -218,24 +218,7 @@
                     TextColor="Black"
                     x:Name="btn16"
                     />
-                    <toto:CircleButton
-                    WidthRequest="40"
-                    HeightRequest="40"
-                    BackgroundColor="White"
-                    TextColor="Black"
-                    x:Name="btn17"
-                          FontSize="10"
-                        FontAttributes="Bold"
-                    />
-                    <toto:CircleButton
-                    WidthRequest="40"
-                    HeightRequest="40"
-                    BackgroundColor="White"
-                    TextColor="Black"
-                    x:Name="btn18"
-                          FontSize="10"
-                        FontAttributes="Bold"
-                    />
+                  
 
                 </StackLayout>
 
