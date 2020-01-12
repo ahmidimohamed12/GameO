@@ -11,6 +11,7 @@
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
           "NETStandard.Library": "2.0.3",
+          "Plugins.Forms.ButtonCircle": "2.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -33,6 +34,18 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Plugins.Forms.ButtonCircle/2.0.3": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ButtonCircle.FormsPlugin.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -98,6 +111,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Plugins.Forms.ButtonCircle/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cbnNLnCAgmjmW3XVxC/f5cGSVIY1WMvK9rrOw/rvFZpnEMAoGPrJbt/fxFRllfw02jbgmujnuekGPalvngybgw==",
+      "path": "plugins.forms.buttoncircle/2.0.3",
+      "hashPath": "plugins.forms.buttoncircle.2.0.3.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",

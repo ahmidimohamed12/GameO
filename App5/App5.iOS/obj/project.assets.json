@@ -25,10 +25,10 @@
           "lib/xamarinios/Lottie.Forms.iOS.dll": {}
         }
       },
-      "Plugins.Forms.ButtonCircle/1.0.36": {
+      "Plugins.Forms.ButtonCircle/2.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.3.4.224"
+          "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
           "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.Abstractions.dll": {},
@@ -191,7 +191,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
-          "Plugins.Forms.ButtonCircle": "1.0.36",
+          "Plugins.Forms.ButtonCircle": "2.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -227,10 +227,10 @@
           "lib/xamarinios/Lottie.Forms.iOS.dll": {}
         }
       },
-      "Plugins.Forms.ButtonCircle/1.0.36": {
+      "Plugins.Forms.ButtonCircle/2.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.3.4.224"
+          "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
           "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.Abstractions.dll": {},
@@ -393,7 +393,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
-          "Plugins.Forms.ButtonCircle": "1.0.36",
+          "Plugins.Forms.ButtonCircle": "2.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -429,10 +429,10 @@
           "lib/xamarinios/Lottie.Forms.iOS.dll": {}
         }
       },
-      "Plugins.Forms.ButtonCircle/1.0.36": {
+      "Plugins.Forms.ButtonCircle/2.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.3.4.224"
+          "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
           "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.Abstractions.dll": {},
@@ -595,7 +595,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
-          "Plugins.Forms.ButtonCircle": "1.0.36",
+          "Plugins.Forms.ButtonCircle": "2.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -631,10 +631,10 @@
           "lib/xamarinios/Lottie.Forms.iOS.dll": {}
         }
       },
-      "Plugins.Forms.ButtonCircle/1.0.36": {
+      "Plugins.Forms.ButtonCircle/2.0.3": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "2.3.4.224"
+          "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
           "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.Abstractions.dll": {},
@@ -797,7 +797,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
-          "Plugins.Forms.ButtonCircle": "1.0.36",
+          "Plugins.Forms.ButtonCircle": "2.0.3",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -853,27 +853,38 @@
         "lib/xamarinmac/Lottie.Forms.pdb"
       ]
     },
-    "Plugins.Forms.ButtonCircle/1.0.36": {
-      "sha512": "YWR/tMSRYGBLWQlnp7WA1iOyydylQjYfez00r/Yj7wfniI28VPnxki6HKKkBusm9qAavbyx3VS0lY3TDTRn3Zg==",
+    "Plugins.Forms.ButtonCircle/2.0.3": {
+      "sha512": "cbnNLnCAgmjmW3XVxC/f5cGSVIY1WMvK9rrOw/rvFZpnEMAoGPrJbt/fxFRllfw02jbgmujnuekGPalvngybgw==",
       "type": "package",
-      "path": "plugins.forms.buttoncircle/1.0.36",
+      "path": "plugins.forms.buttoncircle/2.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "content/MonoAndroid10/Assets/fontawesome.ttf",
+        "content/MonoAndroid10/Assets/materialicons.ttf",
+        "content/UAP10/ButtonCircle.FormsPlugin.UWP/Assets/Fonts/fontawesome.ttf",
+        "content/UAP10/ButtonCircle.FormsPlugin.UWP/Assets/Fonts/materialicons.ttf",
+        "content/Xamarin.iOS10/Resources/fontawesome.ttf",
+        "content/Xamarin.iOS10/Resources/materialicons.ttf",
         "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Abstractions.dll",
         "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Abstractions.pdb",
-        "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Abstractions.xml",
+        "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Android.XML",
         "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Android.dll",
+        "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Android.dll.mdb",
         "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Android.pdb",
-        "lib/MonoAndroid10/ButtonCircle.FormsPlugin.Android.xml",
+        "lib/UAP10/ButtonCircle.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/ButtonCircle.FormsPlugin.Abstractions.pdb",
+        "lib/UAP10/ButtonCircle.FormsPlugin.UWP.XML",
+        "lib/UAP10/ButtonCircle.FormsPlugin.UWP.dll",
         "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.Abstractions.dll",
-        "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.Abstractions.xml",
+        "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.Abstractions.pdb",
+        "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.iOS.XML",
         "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.iOS.dll",
-        "lib/Xamarin.iOS10/ButtonCircle.FormsPlugin.iOS.xml",
-        "lib/portable-net45+wp80+win8+wpa81/ButtonCircle.FormsPlugin.Abstractions.dll",
-        "lib/portable-net45+wp80+win8+wpa81/ButtonCircle.FormsPlugin.Abstractions.pdb",
-        "lib/portable-net45+wp80+win8+wpa81/ButtonCircle.FormsPlugin.Abstractions.xml",
-        "plugins.forms.buttoncircle.1.0.36.nupkg.sha512",
+        "lib/netstandard2.0/ButtonCircle.FormsPlugin.Abstractions.deps.json",
+        "lib/netstandard2.0/ButtonCircle.FormsPlugin.Abstractions.dll",
+        "lib/netstandard2.0/ButtonCircle.FormsPlugin.Abstractions.pdb",
+        "lib/netstandard2.0/ButtonCircle.FormsPlugin.Abstractions.xml",
+        "plugins.forms.buttoncircle.2.0.3.nupkg.sha512",
         "plugins.forms.buttoncircle.nuspec"
       ]
     },
@@ -1234,7 +1245,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "App5 >= 1.0.0",
       "Com.Airbnb.Xamarin.Forms.Lottie >= 2.0.0",
-      "Plugins.Forms.ButtonCircle >= 1.0.36",
+      "Plugins.Forms.ButtonCircle >= 2.0.3",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675"
     ]
@@ -1287,7 +1298,7 @@
           },
           "Plugins.Forms.ButtonCircle": {
             "target": "Package",
-            "version": "[1.0.36, )"
+            "version": "[2.0.3, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
