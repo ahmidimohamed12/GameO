@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.231"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win+wpa81+dnxcore50/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win+wpa81+dnxcore50/Lottie.Forms.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -67,6 +79,31 @@
     }
   },
   "libraries": {
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.0.0": {
+      "sha512": "3OVZ8cHc4i0n8kM6u8CO0J5G+bUrfELORBHNriZPjlAwotM3ONT8DFgzYaDnbXALLYQ4JKbZMkNKx3AbhSUWow==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "com.airbnb.xamarin.forms.lottie.2.0.0.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "lib/MonoAndroid70/Lottie.Forms.Droid.dll",
+        "lib/MonoAndroid70/Lottie.Forms.Droid.pdb",
+        "lib/MonoAndroid70/Lottie.Forms.dll",
+        "lib/MonoAndroid70/Lottie.Forms.pdb",
+        "lib/portable-net45+wp8+win+wpa81+dnxcore50/Lottie.Forms.dll",
+        "lib/portable-net45+wp8+win+wpa81+dnxcore50/Lottie.Forms.pdb",
+        "lib/xamarinios/Lottie.Forms.dll",
+        "lib/xamarinios/Lottie.Forms.iOS.dll",
+        "lib/xamarinios/Lottie.Forms.iOS.pdb",
+        "lib/xamarinios/Lottie.Forms.pdb",
+        "lib/xamarinmac/Lottie.Forms.dll",
+        "lib/xamarinmac/Lottie.Forms.macOS.dll",
+        "lib/xamarinmac/Lottie.Forms.macOS.pdb",
+        "lib/xamarinmac/Lottie.Forms.pdb"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -561,6 +598,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 2.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675"
@@ -608,6 +646,10 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -636,5 +678,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Com.Airbnb.Xamarin.Forms.Lottie 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Com.Airbnb.Xamarin.Forms.Lottie",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

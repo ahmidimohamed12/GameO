@@ -1,0 +1,14 @@
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\bin\Debug\netstandard2.0\App5.deps.json
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\bin\Debug\netstandard2.0\App5.dll
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\App5.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\Views\Star_page.xaml.g.cs
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\App5.AssemblyInfo.cs
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\bin\Debug\netstandard2.0\ref\App5.dll
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\bin\Debug\netstandard2.0\App5.pdb
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\App5.dll
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\ref\App5.dll
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\App5.pdb

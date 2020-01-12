@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Com.Airbnb.iOS.Lottie/1.5.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "1.5.1.1"
+        },
+        "compile": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -153,6 +176,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -165,6 +189,29 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Com.Airbnb.iOS.Lottie/1.5.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "1.5.1.1"
+        },
+        "compile": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -316,6 +363,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -328,6 +376,29 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Com.Airbnb.iOS.Lottie/1.5.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "1.5.1.1"
+        },
+        "compile": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -479,6 +550,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -491,6 +563,29 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Com.Airbnb.iOS.Lottie/1.5.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.iOS.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.iOS.Lottie": "1.5.1.1"
+        },
+        "compile": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios/Lottie.Forms.dll": {},
+          "lib/xamarinios/Lottie.Forms.iOS.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -642,6 +737,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.0.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -655,6 +751,48 @@
     }
   },
   "libraries": {
+    "Com.Airbnb.iOS.Lottie/1.5.1.1": {
+      "sha512": "skf0FbTSQgo3/XSuqXxIZfF/cRxXOgibOVhec+6n0GUhTBgBfZxWav5rhIKrKa/XnbWkCCS0MODFo/xqBa/xOg==",
+      "type": "package",
+      "path": "com.airbnb.ios.lottie/1.5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "com.airbnb.ios.lottie.1.5.1.1.nupkg.sha512",
+        "com.airbnb.ios.lottie.nuspec",
+        "lib/Xamarin.Mac/Lottie.macOS.dll",
+        "lib/Xamarin.Mac/Lottie.macOS.pdb",
+        "lib/Xamarin.TVOS/Lottie.tvOS.dll",
+        "lib/Xamarin.TVOS/Lottie.tvOS.pdb",
+        "lib/xamarinios/Lottie.iOS.dll",
+        "lib/xamarinios/Lottie.iOS.pdb"
+      ]
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.0.0": {
+      "sha512": "3OVZ8cHc4i0n8kM6u8CO0J5G+bUrfELORBHNriZPjlAwotM3ONT8DFgzYaDnbXALLYQ4JKbZMkNKx3AbhSUWow==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "com.airbnb.xamarin.forms.lottie.2.0.0.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "lib/MonoAndroid70/Lottie.Forms.Droid.dll",
+        "lib/MonoAndroid70/Lottie.Forms.Droid.pdb",
+        "lib/MonoAndroid70/Lottie.Forms.dll",
+        "lib/MonoAndroid70/Lottie.Forms.pdb",
+        "lib/portable-net45+wp8+win+wpa81+dnxcore50/Lottie.Forms.dll",
+        "lib/portable-net45+wp8+win+wpa81+dnxcore50/Lottie.Forms.pdb",
+        "lib/xamarinios/Lottie.Forms.dll",
+        "lib/xamarinios/Lottie.Forms.iOS.dll",
+        "lib/xamarinios/Lottie.Forms.iOS.pdb",
+        "lib/xamarinios/Lottie.Forms.pdb",
+        "lib/xamarinmac/Lottie.Forms.dll",
+        "lib/xamarinmac/Lottie.Forms.macOS.dll",
+        "lib/xamarinmac/Lottie.Forms.macOS.pdb",
+        "lib/xamarinmac/Lottie.Forms.pdb"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1011,6 +1149,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "App5 >= 1.0.0",
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 2.0.0",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675"
     ]
@@ -1057,6 +1196,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.3.1, )"

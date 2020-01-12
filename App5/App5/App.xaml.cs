@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using App5.Views;
 
 namespace App5
 {
@@ -10,7 +11,7 @@ namespace App5
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Star_page();
         }
 
         protected override void OnStart()
