@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:lt="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             BackgroundColor="Black"
+             x:Class="App5.Views.play_page">
+    <ContentPage.Content>
+        <StackLayout>
+            <lt:AnimationView
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Animation="pbouton.json"
+                WidthRequest="150"
+                HeightRequest="150"
+                Loop="True"
+                AutoPlay="True"
+                x:Name="anim1"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

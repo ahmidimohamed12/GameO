@@ -13,34 +13,34 @@
             <StackLayout Orientation="Horizontal">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="100" />
                         <ColumnDefinition Width="50"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40"/>
                     </Grid.RowDefinitions>
-                    <StackLayout Orientation="Horizontal" Grid.Column="0" >
+                    <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="0" >
                         <Image 
                             x:Name="star1" 
                             Source="star.png" 
-                            WidthRequest="40" />
+                            WidthRequest="30" />
                         <Image 
                             x:Name="star2" 
                             Source="star.png" 
-                            WidthRequest="40" />
+                            WidthRequest="30" />
                         <Image 
                             x:Name="star3" 
                             Source="star.png" 
-                            WidthRequest="40" />
+                            WidthRequest="30" />
                         <Image 
                             x:Name="star4" 
                             Source="star.png" 
-                            WidthRequest="40" />
+                            WidthRequest="30" />
                         <Image 
                             x:Name="star5" 
                             Source="star.png" 
-                            WidthRequest="40" />
+                            WidthRequest="30" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal">
 

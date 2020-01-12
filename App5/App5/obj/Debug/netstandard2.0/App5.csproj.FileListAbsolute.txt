@@ -12,3 +12,4 @@ C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\ref\App5.dll
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\App5.pdb
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\Views\play_page.xaml.g.cs
