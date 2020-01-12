@@ -4,6 +4,8 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "App5.Android.dll" comes first in this list. */
 		"App5.Android.dll",
 		"App5.dll",
+		"ButtonCircle.FormsPlugin.Abstractions.dll",
+		"ButtonCircle.FormsPlugin.Android.dll",
 		"FormsViewGroup.dll",
 		"Lottie.dll",
 		"Lottie.Forms.dll",
