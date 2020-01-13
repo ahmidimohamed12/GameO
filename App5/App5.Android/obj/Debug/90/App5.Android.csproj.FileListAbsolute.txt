@@ -493,3 +493,4 @@ C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\an
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\club.png
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\star.png
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\android\assets\ButtonCircle.FormsPlugin.Abstractions.pdb
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
