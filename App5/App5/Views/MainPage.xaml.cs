@@ -25,6 +25,7 @@ namespace App5
 
 
             //EVENT 
+            btn_showev();
             btn_Resev();
 
 
@@ -32,9 +33,46 @@ namespace App5
 
         private void btn_showev()
         {
+            
             btn1.Clicked += (sender, e) =>
             {
                 btn1.IsVisible = false;
+            };
+            btn2.Clicked += (sender, e) =>
+            {
+                btn2.IsVisible = false;
+            };
+            btn3.Clicked += (sender, e) =>
+            {
+                btn3.IsVisible = false;
+            };
+            btn4.Clicked += (sender, e) =>
+            {
+                btn4.IsVisible = false;
+            };
+            btn5.Clicked += (sender, e) =>
+            {
+                btn5.IsVisible = false;
+            };
+            btn6.Clicked += (sender, e) =>
+            {
+                btn6.IsVisible = false;
+            };
+            btn7.Clicked += (sender, e) =>
+            {
+                btn7.IsVisible = false;
+            };
+            btn8.Clicked += (sender, e) =>
+            {
+                btn8.IsVisible = false;
+            };
+            btn9.Clicked += (sender, e) =>
+            {
+                btn9.IsVisible = false;
+            };
+            btn10.Clicked += (sender, e) =>
+            {
+                btn10.IsVisible = false;
             };
         }
 
@@ -42,308 +80,130 @@ namespace App5
         private void btn_Resev()
         {
             btn11.Clicked += (sender, e) => {
-                ct++;
-                if (ct == 1)
-                {
-                    btn1.IsVisible = true;
-                }
-                if (ct == 2)
-                {
-                    btn2.IsVisible = true;
-                }
-                if (ct == 3)
-                {
-                    btn3.IsVisible = true;
-                }
-                if (ct == 4)
-                {
-                    btn4.IsVisible = true;
-                }
-                if (ct == 5)
-                {
-                    btn5.IsVisible = true;
-                }
-                if (ct == 6)
-                {
-                    btn6.IsVisible = true;
-                }
-                if (ct == 7)
-                {
-                    btn7.IsVisible = true;
-                }
-                if (ct == 8)
-                {
-                    btn8.IsVisible = true;
-                }
-                if (ct == 9)
-                {
-                    btn9.IsVisible = true;
-                }
-                if (ct == 10)
-                {
-                    btn10.IsVisible = true;
-                }
+                calculecmpt();
             };
             btn12.Clicked += (sender, e) => {
-                ct++;
-                if (ct == 1)
-                {
-                    btn1.IsVisible = true;
-                }
-                if (ct == 2)
-                {
-                    btn2.IsVisible = true;
-                }
-                if (ct == 3)
-                {
-                    btn3.IsVisible = true;
-                }
-                if (ct == 4)
-                {
-                    btn4.IsVisible = true;
-                }
-                if (ct == 5)
-                {
-                    btn5.IsVisible = true;
-                }
-                if (ct == 6)
-                {
-                    btn6.IsVisible = true;
-                }
-                if (ct == 7)
-                {
-                    btn7.IsVisible = true;
-                }
-                if (ct == 8)
-                {
-                    btn8.IsVisible = true;
-                }
-                if (ct == 9)
-                {
-                    btn9.IsVisible = true;
-                }
-                if (ct == 10)
-                {
-                    btn10.IsVisible = true;
-                }
+                calculecmpt();
             };
             btn13.Clicked += (sender, e) => {
-                ct++;
-                if (ct == 1)
-                {
-                    btn1.IsVisible = true;
-                }
-                if (ct == 2)
-                {
-                    btn2.IsVisible = true;
-                }
-                if (ct == 3)
-                {
-                    btn3.IsVisible = true;
-                }
-                if (ct == 4)
-                {
-                    btn4.IsVisible = true;
-                }
-                if (ct == 5)
-                {
-                    btn5.IsVisible = true;
-                }
-                if (ct == 6)
-                {
-                    btn6.IsVisible = true;
-                }
-                if (ct == 7)
-                {
-                    btn7.IsVisible = true;
-                }
-                if (ct == 8)
-                {
-                    btn8.IsVisible = true;
-                }
-                if (ct == 9)
-                {
-                    btn9.IsVisible = true;
-                }
-                if (ct == 10)
-                {
-                    btn10.IsVisible = true;
-                }
+                calculecmpt();
             };
             btn14.Clicked += (sender, e) => {
-                ct++;
-                if (ct == 1)
-                {
-                    btn1.IsVisible = true;
-                }
-                if (ct == 2)
-                {
-                    btn2.IsVisible = true;
-                }
-                if (ct == 3)
-                {
-                    btn3.IsVisible = true;
-                }
-                if (ct == 4)
-                {
-                    btn4.IsVisible = true;
-                }
-                if (ct == 5)
-                {
-                    btn5.IsVisible = true;
-                }
-                if (ct == 6)
-                {
-                    btn6.IsVisible = true;
-                }
-                if (ct == 7)
-                {
-                    btn7.IsVisible = true;
-                }
-                if (ct == 8)
-                {
-                    btn8.IsVisible = true;
-                }
-                if (ct == 9)
-                {
-                    btn9.IsVisible = true;
-                }
-                if (ct == 10)
-                {
-                    btn10.IsVisible = true;
-                }
+                calculecmpt();
             };
             btn15.Clicked += (sender, e) => {
-                ct++;
-                if (ct == 1)
-                {
-                    btn1.IsVisible = true;
-                }
-                if (ct == 2)
-                {
-                    btn2.IsVisible = true;
-                }
-                if (ct == 3)
-                {
-                    btn3.IsVisible = true;
-                }
-                if (ct == 4)
-                {
-                    btn4.IsVisible = true;
-                }
-                if (ct == 5)
-                {
-                    btn5.IsVisible = true;
-                }
-                if (ct == 6)
-                {
-                    btn6.IsVisible = true;
-                }
-                if (ct == 7)
-                {
-                    btn7.IsVisible = true;
-                }
-                if (ct == 8)
-                {
-                    btn8.IsVisible = true;
-                }
-                if (ct == 9)
-                {
-                    btn9.IsVisible = true;
-                }
-                if (ct == 10)
-                {
-                    btn10.IsVisible = true;
-                }
+                calculecmpt();
             };
             btn16.Clicked += (sender, e) => {
-                ct++;
-                if (ct == 1)
-                {
-                    btn1.IsVisible = true;
-                }
-                if (ct == 2)
-                {
-                    btn2.IsVisible = true;
-                }
-                if (ct == 3)
-                {
-                    btn3.IsVisible = true;
-                }
-                if (ct == 4)
-                {
-                    btn4.IsVisible = true;
-                }
-                if (ct == 5)
-                {
-                    btn5.IsVisible = true;
-                }
-                if (ct == 6)
-                {
-                    btn6.IsVisible = true;
-                }
-                if (ct == 7)
-                {
-                    btn7.IsVisible = true;
-                }
-                if (ct == 8)
-                {
-                    btn8.IsVisible = true;
-                }
-                if (ct == 9)
-                {
-                    btn9.IsVisible = true;
-                }
-                if (ct == 10)
-                {
-                    btn10.IsVisible = true;
-                }
+                calculecmpt();
             };
             btn17.Clicked += (sender, e) => {
-                ct++;
-                if (ct == 1)
-                {
-                    btn1.IsVisible = true;
-                }
-                if (ct == 2)
-                {
-                    btn2.IsVisible = true;
-                }
-                if (ct == 3)
-                {
-                    btn3.IsVisible = true;
-                }
-                if (ct == 4)
-                {
-                    btn4.IsVisible = true;
-                }
-                if (ct == 5)
-                {
-                    btn5.IsVisible = true;
-                }
-                if (ct == 6)
-                {
-                    btn6.IsVisible = true;
-                }
-                if (ct == 7)
-                {
-                    btn7.IsVisible = true;
-                }
-                if (ct == 8)
-                {
-                    btn8.IsVisible = true;
-                }
-                if (ct == 9)
-                {
-                    btn9.IsVisible = true;
-                }
-                if (ct == 10)
-                {
-                    btn10.IsVisible = true;
-                }
+                calculecmpt();
+            };
+
+            btn18.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn19.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn20.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn21.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn22.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn23.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn24.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn25.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn26.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn27.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn28.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn29.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn30.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn31.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn32.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn33.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn34.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn35.Clicked += (sender, e) => {
+                calculecmpt();
+            };
+            btn36.Clicked += (sender, e) => {
+                calculecmpt();
             };
         }
 
+        public void calculecmpt()
+        {
+            ct++;
+            if (ct == 1)
+            {
+                btn1.IsVisible = true;
+            }
+            if (ct == 2)
+            {
+                btn2.IsVisible = true;
+            }
+            if (ct == 3)
+            {
+                btn3.IsVisible = true;
+            }
+            if (ct == 4)
+            {
+                btn4.IsVisible = true;
+            }
+            if (ct == 5)
+            {
+                btn5.IsVisible = true;
+            }
+            if (ct == 6)
+            {
+                btn6.IsVisible = true;
+            }
+            if (ct == 7)
+            {
+                btn7.IsVisible = true;
+            }
+            if (ct == 8)
+            {
+                btn8.IsVisible = true;
+            }
+            if (ct == 9)
+            {
+                btn9.IsVisible = true;
+            }
+            if (ct == 10)
+            {
+                btn10.IsVisible = true;
+            }
+        }
         public void Remplire_Button()
         {
             btn11.Text = "A";
@@ -399,48 +259,5 @@ namespace App5
             btn10.IsVisible = false;
         }
 
-
-        public void check1(Button b)
-        {
-            if (n1 == 1)
-            {
-                btn1.Text = b.Text;
-                btn1.IsVisible = true;
-                n1 = 1;
-                n2 = 0;
-                n3 = 0;
-                n4 = 0;
-            }
-        }
-
-        public void check2(Button b)
-        {
-            if (n2 == 0)
-            {
-                btn2.Text = b.Text;
-                btn2.IsVisible = true;
-                n2 = 1;
-            }
-        }
-
-        public void check3(Button b)
-        {
-            if (n3 == 0)
-            {
-                btn3.Text = b.Text;
-                btn3.IsVisible = true;
-                n3 = 1;
-            }
-        }
-
-        public void check4(Button b)
-        {
-            if (n4 == 0)
-            {
-                btn4.Text = b.Text;
-                btn4.IsVisible = true;
-                n4 = 1;
-            }
-        }
     }
 }
