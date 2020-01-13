@@ -169,6 +169,17 @@
                     x:Name="btn10"
                     />
                 </StackLayout>
+                <toto:CircleButton
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="VIDE"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    x:Name="btnvide"
+                    />
                 <StackLayout Grid.Column="0" Grid.Row="3" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                     <toto:CircleButton
                     WidthRequest="40"

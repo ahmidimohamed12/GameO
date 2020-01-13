@@ -28,7 +28,10 @@ namespace App5
             btn_showev();
             btn_Resev();
 
-
+            btnvide.Clicked += (sender, e) =>
+            {
+                tous_visible();
+            };
         }
 
         private void btn_showev()
@@ -37,42 +40,52 @@ namespace App5
             btn1.Clicked += (sender, e) =>
             {
                 btn1.IsVisible = false;
+                ct = 0;
             };
             btn2.Clicked += (sender, e) =>
             {
                 btn2.IsVisible = false;
+                ct = 1;
             };
             btn3.Clicked += (sender, e) =>
             {
                 btn3.IsVisible = false;
+                ct = 2;
             };
             btn4.Clicked += (sender, e) =>
             {
                 btn4.IsVisible = false;
+                ct = 3;
             };
             btn5.Clicked += (sender, e) =>
             {
                 btn5.IsVisible = false;
+                ct = 4;
             };
             btn6.Clicked += (sender, e) =>
             {
                 btn6.IsVisible = false;
+                ct = 5;
             };
             btn7.Clicked += (sender, e) =>
             {
                 btn7.IsVisible = false;
+                ct = 6;
             };
             btn8.Clicked += (sender, e) =>
             {
                 btn8.IsVisible = false;
+                ct = 7;
             };
             btn9.Clicked += (sender, e) =>
             {
                 btn9.IsVisible = false;
+                ct = 8;
             };
             btn10.Clicked += (sender, e) =>
             {
                 btn10.IsVisible = false;
+                ct = 9;
             };
         }
 
@@ -166,10 +179,12 @@ namespace App5
             if (ct == 1)
             {
                 btn1.IsVisible = true;
+               
             }
             if (ct == 2)
             {
                 btn2.IsVisible = true;
+                
             }
             if (ct == 3)
             {
@@ -235,18 +250,10 @@ namespace App5
             
         }
 
-        public void btnn_click(object sender, EventArgs e)
-        {
-            Button btn = (Button)sender;
-            if (btn11.IsVisible == false)
-            {
-                btn11.IsVisible = true;
-                btn11.Text = "R";
-                btn.IsVisible = false;
-            }
-        }
+       
         public void tous_visible()
         {
+            ct = 0;
             btn1.IsVisible = false;
             btn2.IsVisible = false;
             btn3.IsVisible = false;

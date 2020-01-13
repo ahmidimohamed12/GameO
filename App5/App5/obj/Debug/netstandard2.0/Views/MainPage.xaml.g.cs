@@ -62,6 +62,9 @@ namespace App5 {
         private global::ButtonCircle.FormsPlugin.Abstractions.CircleButton btn10;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::ButtonCircle.FormsPlugin.Abstractions.CircleButton btnvide;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::ButtonCircle.FormsPlugin.Abstractions.CircleButton btn11;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -157,6 +160,7 @@ namespace App5 {
             btn8 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn8");
             btn9 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn9");
             btn10 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn10");
+            btnvide = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btnvide");
             btn11 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn11");
             btn12 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn12");
             btn13 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ButtonCircle.FormsPlugin.Abstractions.CircleButton>(this, "btn13");
