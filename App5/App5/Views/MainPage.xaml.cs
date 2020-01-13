@@ -43,7 +43,7 @@ namespace App5
                 }
                 if (ct == 5)
                 {
-                    btn5.IsVisible = true;
+                    btn5.IsVisible = true; 
                 }
                 if (ct == 6)
                 {
