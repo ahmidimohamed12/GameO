@@ -224,7 +224,6 @@ namespace App5.Views
                 op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text + btn9.Text;
                 if (op == "VALENCIA")
                 {
-
                     Navigation.PushModalAsync(new PageWin());
                 }
                 else

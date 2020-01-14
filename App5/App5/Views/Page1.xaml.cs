@@ -248,7 +248,7 @@ namespace App5.Views
                 if (op == "BARCELONA")
                 {
 
-                    Navigation.PushModalAsync(new PageWin());
+                    Navigation.PushModalAsync(new Page2());
                 }
                 else
                 {
