@@ -279,16 +279,16 @@ namespace App5
                     }
                     if (cyt == 3)
                     {
-                        star3.IsVisible = true;
+                        star3.IsVisible = false;
                     }
                     if (cyt == 4)
                     {
-                        star2.IsVisible = true;
+                        star2.IsVisible = false;
                     }
                     if (cyt == 5)
                     {
-                        star1.IsVisible = true;
-                        Navigation.PushModalAsync(new PageWin());
+                        star1.IsVisible = false;
+                        Navigation.PushModalAsync(new play_page());
                     }
                 }
             }
