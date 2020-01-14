@@ -70,6 +70,7 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\boys.json" />
     <AndroidAsset Include="Assets\pbouton.json" />
+    <AndroidAsset Include="Assets\winn.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

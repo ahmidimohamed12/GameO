@@ -263,7 +263,11 @@ namespace App5
                 op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text + btn9.Text + btn10.Text;
                 if (op == "REALMADRID")
                 {
-                    Navigation.PushModalAsync(new Page1());
+                    Device.StartTimer(TimeSpan.FromSeconds(2), () =>
+                    {
+                        Navigation.PushModalAsync(new Page1());
+                        return false;
+                    });
                 }
             }
         }
