@@ -4,10 +4,429 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:toto="clr-namespace:ButtonCircle.FormsPlugin.Abstractions;assembly=ButtonCircle.FormsPlugin.Abstractions"
              BackgroundColor="Black"
              x:Class="App5.Views.Page2">
     <ContentPage.Content>
         <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.Row="0" >
+                        <Image 
+                            x:Name="star1" 
+                            Source="star.png" 
+                            WidthRequest="30" />
+                        <Image 
+                            x:Name="star2" 
+                            Source="star.png" 
+                            WidthRequest="30" />
+                        <Image 
+                            x:Name="star3" 
+                            Source="star.png" 
+                            WidthRequest="30" />
+                        <Image 
+                            x:Name="star4" 
+                            Source="star.png" 
+                            WidthRequest="30" />
+                        <Image 
+                            x:Name="star5" 
+                            Source="star.png" 
+                            WidthRequest="30" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+
+                    </StackLayout>
+                </Grid>
+
+            </StackLayout>
+            <BoxView
+                HeightRequest="30"
+                />
+            <Image
+                WidthRequest="340"
+                HeightRequest="185"
+                Source="valencia.png"
+                />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn1"
+                    FontSize="10"
+                    FontAttributes="Bold"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    FontSize="10"
+                    FontAttributes="Bold"
+                    x:Name="btn2"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn3"
+                    FontSize="10"
+                    FontAttributes="Bold"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                     TextColor="Black"
+                    x:Name="btn4"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn5"
+                    />
+
+                </StackLayout>
+                <StackLayout  Grid.Column="0" Grid.Row="1" HorizontalOptions="CenterAndExpand"  Orientation="Horizontal" >
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    x:Name="btn6"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn7"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn8"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    />
+
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    x:Name="btn9"
+                    />
+
+                </StackLayout>
+                <toto:CircleButton
+                    Grid.Column="0"
+                    Grid.Row="2"
+                    HeightRequest="50"
+                    WidthRequest="50"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="VIDE"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    x:Name="btnvide"
+                    />
+                <StackLayout Grid.Column="0" Grid.Row="3" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <toto:CircleButton
+                    WidthRequest="40"
+                          FontSize="10"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn11"
+                    FontAttributes="Bold"
+                        
+                    />
+                    <toto:CircleButton
+                     WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn12"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn13"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn14"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn15"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn16"
+                    />
+
+                    <toto:CircleButton
+                        TextColor="Black"
+                    WidthRequest="40"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    x:Name="btn17"
+                    />
+                </StackLayout>
+
+                <StackLayout Grid.Column="0" Grid.Row="4" HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+
+
+
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    x:Name="btn18"
+                    />
+                    <toto:CircleButton
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn19"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn20"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn21"
+                    />
+                    <toto:CircleButton
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn22"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    x:Name="btn23"
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn24"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    />
+
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="5" Orientation="Horizontal">
+
+
+                    <toto:CircleButton
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    x:Name="btn25"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    />
+                    <toto:CircleButton
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                        TextColor="Black"
+                    x:Name="btn26"
+                    />
+                    <toto:CircleButton
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                       TextColor="Black"
+                    x:Name="btn27"
+                     
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    x:Name="btn28"
+                     TextColor="Black"
+                     
+                    />
+
+                    <toto:CircleButton
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                       TextColor="Black"
+                    x:Name="btn29"
+                     
+                    />
+                    <toto:CircleButton
+                    WidthRequest="40"
+                          FontSize="10"
+                        FontAttributes="Bold"
+                    HeightRequest="40"
+                    BackgroundColor="White"
+                    x:Name="btn30"
+                     TextColor="Black"
+                     
+                    />
+                    <toto:CircleButton
+                        WidthRequest="40"
+                        FontSize="10"
+                        FontAttributes="Bold"
+                        HeightRequest="40"
+                        BackgroundColor="White"
+                        x:Name="btn31"
+                        TextColor="Black"
+                     
+                    />
+
+                </StackLayout>
+                <StackLayout Grid.Column="0" Grid.Row="6" HorizontalOptions="CenterAndExpand"  Orientation="Horizontal" >
+                    <toto:CircleButton
+                        WidthRequest="40"
+                        FontSize="10"
+                        FontAttributes="Bold"
+                        HeightRequest="40"
+                        BackgroundColor="White"
+                        x:Name="btn32"
+                        TextColor="Black"
+                     
+                    />
+                    <toto:CircleButton
+                        WidthRequest="40"
+                        FontSize="10"
+                        FontAttributes="Bold"
+                        HeightRequest="40"
+                        BackgroundColor="White"
+                        x:Name="btn33"
+                         TextColor="Black"
+                    />
+                    <toto:CircleButton
+                        WidthRequest="40"
+                        FontSize="10"
+                        FontAttributes="Bold"
+                        HeightRequest="40"
+                        BackgroundColor="White"
+                        x:Name="btn34"
+                        TextColor="Black"
+                     
+                    />
+                    <toto:CircleButton
+                        WidthRequest="40"
+                        FontSize="10"
+                        FontAttributes="Bold"
+                        HeightRequest="40"
+                        BackgroundColor="White"
+                        x:Name="btn35"
+                        TextColor="Black"
+                     
+                    />
+                    <toto:CircleButton
+                        WidthRequest="40"
+                        FontSize="10"
+                        FontAttributes="Bold"
+                        HeightRequest="40"
+                        BackgroundColor="White"
+                        x:Name="btn36"
+                        TextColor="Black"
+                    />
+                </StackLayout>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
