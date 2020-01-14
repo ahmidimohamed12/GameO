@@ -14,9 +14,9 @@ namespace App5
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        string txtresult;
+
+        public static int cyt = 0;
         char[] p = new char[10];
-        int check1, check2, check3;
         int ct = 0;
         int[] btnnb =new  int[26];
         public MainPage()
@@ -265,6 +265,31 @@ namespace App5
                 {
                     
                         Navigation.PushModalAsync(new PageWin());
+                }
+                else
+                {
+                    cyt++;
+                    if (cyt == 1)
+                    {
+                        star5.IsVisible = false;
+                    }
+                    if (cyt == 2)
+                    {
+                        star4.IsVisible = false;
+                    }
+                    if (cyt == 3)
+                    {
+                        star3.IsVisible = true;
+                    }
+                    if (cyt == 4)
+                    {
+                        star2.IsVisible = true;
+                    }
+                    if (cyt == 5)
+                    {
+                        star1.IsVisible = true;
+                        Navigation.PushModalAsync(new PageWin());
+                    }
                 }
             }
         }

@@ -10,7 +10,7 @@
     <ContentPage.Content>
         <StackLayout>
             <lt:AnimationView
-                Animation="winn.json"
+                x:Name="po"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 AutoPlay="True"

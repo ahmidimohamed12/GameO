@@ -15,6 +15,15 @@ namespace App5.Views
         public PageWin()
         {
             InitializeComponent();
+
+            if (MainPage.cyt == 5)
+            {
+
+            }
+            else
+            {
+
+            }
             Device.StartTimer(TimeSpan.FromSeconds(3), () =>
             {
                 Navigation.PushModalAsync(new Page1());
