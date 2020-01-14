@@ -14,6 +14,7 @@ namespace App5
     public partial class MainPage : ContentPage
     {
         int n1, n2, n3, n4;
+        string btntxt;
         int check1, check2, check3;
         int ct = 0;
         int[] btnnb =new  int[26];
@@ -42,6 +43,7 @@ namespace App5
             {
                 btn1.IsVisible = false;
                 ct = 0;
+               // btntxt = btn1.Text;
             };
             btn2.Clicked += (sender, e) =>
             {
@@ -94,131 +96,165 @@ namespace App5
         private void btn_Resev()
         {
             btn11.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
 
             };
             btn12.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn13.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn14.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn15.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn16.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn17.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
 
             btn18.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn19.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn20.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn21.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn22.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn23.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn24.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn25.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn26.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn27.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn28.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn29.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn30.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn31.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn32.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn33.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn34.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn35.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
             btn36.Clicked += (sender, e) => {
-                calculecmpt();
+                Button btn = (Button)sender;
+                calculecmpt(btn.Text);
             };
         }
 
-        public void calculecmpt()
+        public void calculecmpt(string txt)
         {
             ct++;
             if (ct == 1)
             {
                 btn1.IsVisible = true;
-               
+                btn1.Text = txt;
             }
             if (ct == 2)
             {
                 btn2.IsVisible = true;
-                
+                btn2.Text = txt;
             }
             if (ct == 3)
             {
                 btn3.IsVisible = true;
+                btn3.Text = txt;
             }
             if (ct == 4)
             {
                 btn4.IsVisible = true;
+                btn4.Text = txt;
             }
             if (ct == 5)
             {
                 btn5.IsVisible = true;
+                btn5.Text = txt;
             }
             if (ct == 6)
             {
                 btn6.IsVisible = true;
+                btn6.Text = txt;
             }
             if (ct == 7)
             {
                 btn7.IsVisible = true;
+                btn7.Text = txt;
             }
             if (ct == 8)
             {
                 btn8.IsVisible = true;
+                btn8.Text = txt;
             }
             if (ct == 9)
             {
                 btn9.IsVisible = true;
+                btn9.Text = txt;
             }
             if (ct == 10)
             {
                 btn10.IsVisible = true;
+                btn10.Text = txt;
             }
         }
         public void Remplire_Button()
