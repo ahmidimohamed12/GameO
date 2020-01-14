@@ -11,6 +11,7 @@
         <StackLayout>
             <lt:AnimationView
                 x:Name="po"
+                Animation="winn.json"
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="FillAndExpand"
                 AutoPlay="True"
