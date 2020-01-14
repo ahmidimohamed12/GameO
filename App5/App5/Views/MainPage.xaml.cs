@@ -257,7 +257,7 @@ namespace App5
                 btn10.Text = txt;
             }
         }
-        public void Remplire_Button()
+        public   void Remplire_Button()
         {
             btn11.Text = "A";
             btn12.Text = "B";
