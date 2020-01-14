@@ -12,13 +12,27 @@ namespace App5.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page2 : ContentPage
     {
-        public static int cyt = 0;
+       public static int cyt = 0;
         char[] p = new char[10];
         int ct = 0;
         int[] btnnb = new int[26];
         public Page2()
         {
             InitializeComponent();
+
+
+            tous_visible();
+            Remplire_Button();
+
+            //EVENT 
+            btn_showev();
+            btn_Resev();
+
+              btnvide.Clicked += (sender, e) =>
+            {
+                tous_visible();
+            };
+
         }
         private void btn_showev()
         {
@@ -221,9 +235,10 @@ namespace App5.Views
                 btn8.IsVisible = true;
                 btn8.Text = txt;
                 op = " ";
-                op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text + btn9.Text;
+                op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text;
                 if (op == "VALENCIA")
                 {
+                    MainPage.ctt = 3;
                     Navigation.PushModalAsync(new PageWin());
                 }
                 else

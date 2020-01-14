@@ -18,7 +18,21 @@ namespace App5.Views
 
             Device.StartTimer(TimeSpan.FromSeconds(5), () =>
             {
-                Navigation.PushModalAsync(new Page1());
+                //DisplayAlert("", "", MainPage.ctt.ToString());
+                if (MainPage.ctt == 1)
+                    Navigation.PushModalAsync(new Page1());
+                if (MainPage.ctt == 2)
+                    Navigation.PushModalAsync(new Page2());
+              //  if (MainPage.ctt == 2)
+                //    Navigation.PushModalAsync(new Page2());
+                //if (MainPage.cyt == 3)
+                //    Navigation.PushModalAsync(new Wi);
+                //if (MainPage.cyt == 4)
+                //    Navigation.PushModalAsync();
+                //if (MainPage.cyt == 5)
+                //    Navigation.PushModalAsync();
+                //if (MainPage.cyt == 6)
+                //    Navigation.PushModalAsync();
                 return false;
             });
         }

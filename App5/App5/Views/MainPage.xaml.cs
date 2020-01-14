@@ -15,7 +15,9 @@ namespace App5
     public partial class MainPage : ContentPage
     {
 
-        public static int cyt = 0;
+
+        public static int ctt = 0;
+        public int cyt;
         char[] p = new char[10];
         int ct = 0;
         int[] btnnb =new  int[26];
@@ -25,8 +27,7 @@ namespace App5
             tous_visible();
             Remplire_Button();
 
-
-
+            ctt = 1;
             //EVENT 
             btn_showev();
             btn_Resev();

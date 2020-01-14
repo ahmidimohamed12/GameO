@@ -22,6 +22,8 @@ namespace App5.Views
             tous_visible();
             Remplire_Button();
 
+           
+
             //EVENT 
             btn_showev();
             btn_Resev();
@@ -247,8 +249,8 @@ namespace App5.Views
                 op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text + btn9.Text;
                 if (op == "BARCELONA")
                 {
-
-                    Navigation.PushModalAsync(new Page2());
+                    MainPage.ctt = 2;
+                    Navigation.PushModalAsync(new PageWin());
                 }
                 else
                 {

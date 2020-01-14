@@ -14,7 +14,7 @@ namespace App5.Views
         public Star_page()
         {
             InitializeComponent();
-            Device.StartTimer(TimeSpan.FromSeconds(3), () =>
+            Device.StartTimer(TimeSpan.FromSeconds(4), () =>
             {
                  Navigation.PushModalAsync(new play_page());
                 return false;
