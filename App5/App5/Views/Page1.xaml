@@ -158,15 +158,7 @@
                         FontAttributes="Bold"
                     x:Name="btn9"
                     />
-                        <toto:CircleButton
-                    WidthRequest="40"
-                    HeightRequest="40"
-                          FontSize="10"
-                        FontAttributes="Bold"
-                    BackgroundColor="White"
-                    TextColor="Black"
-                    x:Name="btn10"
-                    />
+                       
                     </StackLayout>
                     <toto:CircleButton
                     Grid.Column="0"

@@ -16,7 +16,7 @@ namespace App5.Views
         {
             InitializeComponent();
 
-            Device.StartTimer(TimeSpan.FromSeconds(3), () =>
+            Device.StartTimer(TimeSpan.FromSeconds(5), () =>
             {
                 Navigation.PushModalAsync(new Page1());
                 return false;
