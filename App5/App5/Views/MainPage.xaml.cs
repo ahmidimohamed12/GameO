@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using App5.Views;
 
 namespace App5
 {
@@ -13,8 +14,8 @@ namespace App5
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        int n1, n2, n3, n4;
         string txtresult;
+        char[] p = new char[10];
         int check1, check2, check3;
         int ct = 0;
         int[] btnnb =new  int[26];
@@ -43,7 +44,6 @@ namespace App5
             {
                 btn1.IsVisible = false;
                 ct = 0;
-               // btntxt = btn1.Text;
             };
             btn2.Clicked += (sender, e) =>
             {
@@ -205,6 +205,7 @@ namespace App5
 
         public void calculecmpt(string txt)
         {
+            string op;
             ct++;
             if (ct == 1)
             {
@@ -215,6 +216,7 @@ namespace App5
             {
                 btn2.IsVisible = true;
                 btn2.Text = txt;
+
             }
             if (ct == 3)
             {
@@ -245,23 +247,27 @@ namespace App5
             {
                 btn8.IsVisible = true;
                 btn8.Text = txt;
+
             }
             if (ct == 9)
             {
                 btn9.IsVisible = true;
                 btn9.Text = txt;
+                
             }
             if (ct == 10)
             {
                 btn10.IsVisible = true;
                 btn10.Text = txt;
-
-                if (txtresult == "REALMADRID")
+                op = " ";
+                op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text + btn9.Text + btn10.Text;
+                if (op == "REALMADRID")
                 {
-
+                    Navigation.PushModalAsync(new Page1());
                 }
             }
         }
+      
         public   void Remplire_Button()
         {
             btn11.Text = "A";
