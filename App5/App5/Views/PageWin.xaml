@@ -9,7 +9,13 @@
              x:Class="App5.Views.PageWin">
     <ContentPage.Content>
         <StackLayout>
-            
+            <lt:AnimationView
+                Animation="winn.json"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                AutoPlay="True"
+                Loop="True"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

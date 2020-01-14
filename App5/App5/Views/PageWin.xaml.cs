@@ -15,6 +15,11 @@ namespace App5.Views
         public PageWin()
         {
             InitializeComponent();
+            Device.StartTimer(TimeSpan.FromSeconds(3), () =>
+            {
+                Navigation.PushModalAsync(new Page1());
+                return false;
+            });
         }
     }
 }
