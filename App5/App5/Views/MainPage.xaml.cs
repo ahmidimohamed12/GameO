@@ -14,6 +14,7 @@ namespace App5
     public partial class MainPage : ContentPage
     {
         int n1, n2, n3, n4;
+        int check1, check2, check3;
         int ct = 0;
         int[] btnnb =new  int[26];
         public MainPage()
@@ -94,6 +95,7 @@ namespace App5
         {
             btn11.Clicked += (sender, e) => {
                 calculecmpt();
+
             };
             btn12.Clicked += (sender, e) => {
                 calculecmpt();
