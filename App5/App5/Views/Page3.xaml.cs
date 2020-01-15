@@ -19,6 +19,18 @@ namespace App5.Views
         public Page3()
         {
             InitializeComponent();
+
+            Remplire_Button();
+            tous_visible();
+
+            //EVENT
+            btn_showev();
+            btn_Resev();
+
+            btnvide.Clicked += delegate
+            {
+                tous_visible();
+            };
         }
 
         private void btn_showev()
@@ -213,7 +225,7 @@ namespace App5.Views
                 btn7.IsVisible = true;
                 btn7.Text = txt;
                 op = " ";
-                op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text + btn9.Text;
+                op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text;
                 if (op == "CHELSEA")
                 {
                     MainPage.ctt = 2;
@@ -290,8 +302,6 @@ namespace App5.Views
             btn5.IsVisible = false;
             btn6.IsVisible = false;
             btn7.IsVisible = false;
-            btn8.IsVisible = false;
-            btn9.IsVisible = false;
         }
 
     }

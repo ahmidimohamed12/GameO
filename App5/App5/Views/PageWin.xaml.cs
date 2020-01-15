@@ -18,7 +18,6 @@ namespace App5.Views
 
             Device.StartTimer(TimeSpan.FromSeconds(5), () =>
             {
-                //DisplayAlert("", "", MainPage.ctt.ToString());
                 if (MainPage.ctt == 1)
                     Navigation.PushModalAsync(new Page1());
                 if (MainPage.ctt == 2)

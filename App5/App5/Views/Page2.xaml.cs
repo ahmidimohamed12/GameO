@@ -27,7 +27,7 @@ namespace App5.Views
             //EVENT 
             btn_showev();
             btn_Resev();
-            MainPage.ctt = 3;
+            
               btnvide.Clicked += (sender, e) =>
             {
                 tous_visible();

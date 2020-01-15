@@ -496,3 +496,4 @@ C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\an
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\barcelona.png
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\valencia.png
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\chelsea.png
