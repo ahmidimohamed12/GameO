@@ -498,3 +498,4 @@ C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\re
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\valencia.png
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\chelsea.png
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\arsenal.png
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5.Android\obj\Debug\90\res\drawable\tick.png
