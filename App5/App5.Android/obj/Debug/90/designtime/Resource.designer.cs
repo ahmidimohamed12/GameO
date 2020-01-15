@@ -7658,13 +7658,16 @@ namespace App5.Droid
 			public const int star = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int tooltip_frame_dark = 2131165299;
+			public const int tick = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int tooltip_frame_light = 2131165300;
+			public const int tooltip_frame_dark = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int valencia = 2131165301;
+			public const int tooltip_frame_light = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int valencia = 2131165302;
 			
 			static Drawable()
 			{
