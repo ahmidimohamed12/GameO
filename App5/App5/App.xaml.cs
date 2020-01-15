@@ -11,7 +11,7 @@ namespace App5
         {
             InitializeComponent();
 
-            MainPage = new Star_page();
+            MainPage = new Page4();
         }
 
         protected override void OnStart()

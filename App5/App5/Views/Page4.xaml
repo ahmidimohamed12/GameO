@@ -56,7 +56,7 @@
             <Image
                 WidthRequest="340"
                 HeightRequest="185"
-                Source="chelsea.png"
+                Source="arsenal.png"
                 />
             <Grid>
                 <Grid.ColumnDefinitions>
