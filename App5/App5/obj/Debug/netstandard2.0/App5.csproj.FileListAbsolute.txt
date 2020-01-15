@@ -16,3 +16,4 @@ C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\Views\Page2.xaml.g.cs
 C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\Views\PageWin.xaml.g.cs
+C:\Users\pc\source\repos\ahmidimohamed12\GameO\App5\App5\obj\Debug\netstandard2.0\Views\Page3.xaml.g.cs

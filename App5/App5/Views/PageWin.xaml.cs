@@ -23,8 +23,8 @@ namespace App5.Views
                     Navigation.PushModalAsync(new Page1());
                 if (MainPage.ctt == 2)
                     Navigation.PushModalAsync(new Page2());
-              //  if (MainPage.ctt == 2)
-                //    Navigation.PushModalAsync(new Page2());
+                if (MainPage.ctt == 3)
+                   Navigation.PushModalAsync(new Page3());
                 //if (MainPage.cyt == 3)
                 //    Navigation.PushModalAsync(new Wi);
                 //if (MainPage.cyt == 4)
