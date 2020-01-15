@@ -12,7 +12,7 @@ namespace App5.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page2 : ContentPage
     {
-       public static int cyt = 0;
+        public static int cyt = 0;
         char[] p = new char[10];
         int ct = 0;
         int[] btnnb = new int[26];
