@@ -19,11 +19,11 @@ namespace App5.Views
         public Page2()
         {
             InitializeComponent();
-
+            
 
             tous_visible();
             Remplire_Button();
-
+            Visible_image(MainPage.cyt);
             //EVENT 
             btn_showev();
             btn_Resev();
@@ -33,6 +33,39 @@ namespace App5.Views
                 tous_visible();
             };
 
+        }
+        public void Visible_image(int a)
+        {
+            if (a == 5)
+            {
+                star1.IsVisible = false;
+                star2.IsVisible = false;
+                star3.IsVisible = false;
+                star4.IsVisible = false;
+                star5.IsVisible = false;
+            }
+            if (a == 4)
+            {
+                star1.IsVisible = false;
+                star2.IsVisible = false;
+                star3.IsVisible = false;
+                star4.IsVisible = false;
+            }
+            if (a == 3)
+            {
+                star1.IsVisible = false;
+                star2.IsVisible = false;
+                star3.IsVisible = false;
+            }
+            if (a == 2)
+            {
+                star1.IsVisible = true;
+                star2.IsVisible = true;
+            }
+            if (a == 1)
+            {
+                star1.IsVisible = false;
+            }
         }
         private void btn_showev()
         {

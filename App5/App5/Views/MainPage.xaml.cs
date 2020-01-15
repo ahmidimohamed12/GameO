@@ -17,7 +17,7 @@ namespace App5
 
 
         public static int ctt = 0;
-        public int cyt;
+        public static int cyt;
         char[] p = new char[10];
         int ct = 0;
         int[] btnnb =new  int[26];

@@ -22,6 +22,7 @@ namespace App5.Views
 
             Remplire_Button();
             tous_visible();
+            Visible_image(MainPage.cyt);
 
             //EVENT
             btn_showev();
@@ -33,6 +34,39 @@ namespace App5.Views
             };
         }
 
+        public void Visible_image(int a)
+        {
+            if (a == 5)
+            {
+                star1.IsVisible = true;
+                star2.IsVisible = true;
+                star3.IsVisible = true;
+                star4.IsVisible = true;
+                star5.IsVisible = true;
+            }
+            if (a == 4)
+            {
+                star1.IsVisible = true;
+                star2.IsVisible = true;
+                star3.IsVisible = true;
+                star4.IsVisible = true;
+            }
+            if (a == 3)
+            {
+                star1.IsVisible = true;
+                star2.IsVisible = true;
+                star3.IsVisible = true;
+            }
+            if (a == 2)
+            {
+                star1.IsVisible = true;
+                star2.IsVisible = true;
+            }
+            if (a == 1)
+            {
+                star1.IsVisible = true;
+            }
+        }
         private void btn_showev()
         {
 
