@@ -59,16 +59,7 @@ namespace App5.Views
                 btn7.IsVisible = false;
                 ct = 6;
             };
-            btn8.Clicked += (sender, e) =>
-            {
-                btn8.IsVisible = false;
-                ct = 7;
-            };
-            btn9.Clicked += (sender, e) =>
-            {
-                btn9.IsVisible = false;
-                ct = 8;
-            };
+        
         }
 
 
@@ -221,20 +212,9 @@ namespace App5.Views
             {
                 btn7.IsVisible = true;
                 btn7.Text = txt;
-            }
-            if (ct == 8)
-            {
-                btn8.IsVisible = true;
-                btn8.Text = txt;
-
-            }
-            if (ct == 9)
-            {
-                btn9.IsVisible = true;
-                btn9.Text = txt;
                 op = " ";
                 op = btn1.Text + btn2.Text + btn3.Text + btn4.Text + btn5.Text + btn6.Text + btn7.Text + btn8.Text + btn9.Text;
-                if (op == "BARCELONA")
+                if (op == "CHELSEA")
                 {
                     MainPage.ctt = 2;
                     Navigation.PushModalAsync(new PageWin());
