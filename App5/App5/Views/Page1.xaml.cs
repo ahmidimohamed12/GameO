@@ -22,7 +22,7 @@ namespace App5.Views
             tous_visible();
             Remplire_Button();
             Visible_image(MainPage.cyt);
-            DisplayAlert("", "", MainPage.cyt.ToString());
+          //  DisplayAlert("", "", MainPage.cyt.ToString());
 
             //EVENT 
             btn_showev();
@@ -37,35 +37,36 @@ namespace App5.Views
 
         public void Visible_image(int a)
         {
-            if (a == 5)
+            if (a == 1)
             {
-                star1.IsVisible = true;
-                star2.IsVisible = true;
-                star3.IsVisible = true;
-                star4.IsVisible = true;
-                star5.IsVisible = true;
-            }
-            if (a == 4)
-            {
-                star1.IsVisible = true;
-                star2.IsVisible = true;
-                star3.IsVisible = true;
-                star4.IsVisible = true;
-            }
-            if (a == 3)
-            {
-                star1.IsVisible = true;
-                star2.IsVisible = true;
-                star3.IsVisible = true;
+                star5.IsVisible = false;
             }
             if (a == 2)
             {
-                star1.IsVisible = true;
-                star2.IsVisible = true;
+                
+                star4.IsVisible = false;
+                star5.IsVisible = false;
             }
-            if (a == 1)
+            if (a == 3)
             {
-                star1.IsVisible = true;
+                star3.IsVisible = false;
+                star4.IsVisible = false;
+                star5.IsVisible = false;
+            }
+            if (a == 4)
+            {
+                star2.IsVisible = false;
+                star3.IsVisible = false;
+                star4.IsVisible = false;
+                star5.IsVisible = false;
+            }
+            if (a == 5)
+            {
+                star1.IsVisible = false;
+                star2.IsVisible = false;
+                star3.IsVisible = false;
+                star4.IsVisible = false;
+                star5.IsVisible = false;
             }
         }
         private void btn_showev()
