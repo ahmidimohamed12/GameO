@@ -11,7 +11,7 @@ namespace App5
         {
             InitializeComponent();
 
-            MainPage = new App5.Views.Menu();
+            MainPage = new Star_page();
         }
 
         protected override void OnStart()

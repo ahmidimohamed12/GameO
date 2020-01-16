@@ -23,6 +23,7 @@
                             <ColumnDefinition Width="*"  />
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
+                            <RowDefinition Height="15" />
                             <RowDefinition Height="60" />
                             <RowDefinition Height="15"/>
                             <RowDefinition Height="60"/>
@@ -31,37 +32,14 @@
                             <RowDefinition Height="15"/>
                         </Grid.RowDefinitions>
 
-                        <Button CornerRadius="10"
-                                BorderColor="White"
-                                BackgroundColor="Black"
-                                TextColor="White"
-                                FontAttributes="Bold"
-                                Text="1"
-                                ImageSource="tick.png"
+                        <StackLayout 
                                 />
-                        <Button CornerRadius="10"
-                                BorderColor="White"
-                                BackgroundColor="Black"
-                                TextColor="White"
-                                FontAttributes="Bold"
-                                Text="2"
-                                ImageSource="tick.png"
+                        <StackLayout
+                                >
+                        </StackLayout>
+                        <StackLayout 
                                 />
-                        <Button CornerRadius="10"
-                                BorderColor="White"
-                                BackgroundColor="Black"
-                                TextColor="White"
-                                FontAttributes="Bold"
-                                Text="3"
-                                ImageSource="tick.png"
-                                />
-                        <Button CornerRadius="10"
-                                BorderColor="White"
-                                BackgroundColor="Black"
-                                TextColor="White"
-                                FontAttributes="Bold"
-                                Text="4"
-                                ImageSource="tick.png"
+                        <StackLayout 
                                 />
 
                     </Grid>
