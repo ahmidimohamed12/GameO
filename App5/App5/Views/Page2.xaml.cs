@@ -7,6 +7,7 @@ using App5.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace App5.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -19,8 +20,6 @@ namespace App5.Views
         public Page2()
         {
             InitializeComponent();
-            
-
             tous_visible();
             Remplire_Button();
             Visible_image(MainPage.cyt);
