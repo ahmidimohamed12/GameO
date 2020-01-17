@@ -32,16 +32,34 @@
                             <RowDefinition Height="15"/>
                         </Grid.RowDefinitions>
 
-                        <StackLayout 
+                        <StackLayout Grid.Column="0" Grid.Row="2" Orientation="Vertical">
+                            <Image
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="StartAndExpand"
+                                Source="tick.png"
+                                
                                 />
-                        <StackLayout
-                                >
+                            <Label
+                                HorizontalOptions="CenterAndExpand"
+                                Text="1"
+                                FontAttributes="Bold"
+                                TextColor="White"
+                                />
                         </StackLayout>
-                        <StackLayout 
+                        <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Vertical">
+                            <Image
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="StartAndExpand"
+                                Source="tick1.png"
                                 />
-                        <StackLayout 
+                            <Label
+                                HorizontalOptions="CenterAndExpand"
+                                FontAttributes="Bold"
+                                TextColor="White"
+                                Text="2"
                                 />
-
+                            <Label/>
+                        </StackLayout>
                     </Grid>
                 </StackLayout>
             </ScrollView>
