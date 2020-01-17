@@ -32,7 +32,7 @@
                             <RowDefinition Height="15"/>
                         </Grid.RowDefinitions>
 
-                        <StackLayout Grid.Column="0" Grid.Row="2" Orientation="Vertical">
+                        <StackLayout Grid.Column="0" Grid.Row="1" Orientation="Vertical">
                             <Image
                                 HorizontalOptions="CenterAndExpand"
                                 VerticalOptions="StartAndExpand"
@@ -46,7 +46,7 @@
                                 TextColor="White"
                                 />
                         </StackLayout>
-                        <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Vertical">
+                        <StackLayout Grid.Column="2" Grid.Row="1" Orientation="Vertical">
                             <Image
                                 HorizontalOptions="CenterAndExpand"
                                 VerticalOptions="StartAndExpand"
@@ -57,6 +57,20 @@
                                 FontAttributes="Bold"
                                 TextColor="White"
                                 Text="2"
+                                />
+                            <Label/>
+                        </StackLayout>
+                        <StackLayout Grid.Column="4" Grid.Row="1" Orientation="Vertical">
+                            <Image
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="StartAndExpand"
+                                Source="tick1.png"
+                                />
+                            <Label
+                                HorizontalOptions="CenterAndExpand"
+                                FontAttributes="Bold"
+                                TextColor="White"
+                                Text="3"
                                 />
                             <Label/>
                         </StackLayout>
