@@ -5,3 +5,5 @@
 |  Platforms   | Compatible  |
 |------- | -----|
 |Android | yes  |
+|--------|------|
+|ios     | yes  |
