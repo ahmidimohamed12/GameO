@@ -2,6 +2,6 @@
 
 - Game Quize Create By [C# Language](https://www.w3schools.com/cs/) Technologie [Xamarin.Forms](https://www.Xamarin.com)
 
-|  ios   | yes  |
+|  Platforms   | Compatible  |
 |------- | -----|
 |Android | yes  |
