@@ -1,6 +1,6 @@
 # GameO
 
-- Game Quize 
+- Game Quize Create By C# Technologie Xamarin.Forms
 
 |  ios   | yes  |
 |------- | -----|
