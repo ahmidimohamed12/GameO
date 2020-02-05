@@ -2,6 +2,6 @@
 
 - Game Quize 
 
-  ios   | yes
-------- | -----
-Android | yes
+|  ios   | yes  |
+|------- | -----|
+|Android | yes  |
